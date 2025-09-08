@@ -1,0 +1,109 @@
+{
+  "UNIT-III": "Graph Theory",
+  "topics": [
+    {
+      "title": "Definition of a Graph",
+      "content": [
+        "A graph is a collection of vertices (nodes) and edges (lines) where edges connect pairs of vertices.",
+        "Notation: G = (V, E).",
+        "Example: V = {A,B,C}, E = {(A,B),(B,C)}"
+      ]
+    },
+    {
+      "title": "Vertices (Nodes)",
+      "content": [
+        "Points in a graph that represent objects or positions.",
+        "Example: In a social network, each person is a vertex."
+      ]
+    },
+    {
+      "title": "Edges (Lines)",
+      "content": [
+        "Connections (links) between two vertices.",
+        "Example: In a social network, a friendship between two people is an edge."
+      ]
+    },
+    {
+      "title": "Finite and Infinite Graphs",
+      "content": [
+        "Finite Graph: Limited number of vertices and edges.",
+        "Infinite Graph: Unlimited number of vertices or edges."
+      ]
+    },
+    {
+      "title": "Incidence and Degree",
+      "content": [
+        "Incidence: An edge is incident on a vertex if it connects to that vertex.",
+        "Degree of a Vertex: Number of edges connected to a vertex."
+      ]
+    },
+    {
+      "title": "In-degree and Out-degree",
+      "content": [
+        "In-degree: Number of incoming edges to a vertex.",
+        "Out-degree: Number of outgoing edges from a vertex."
+      ]
+    },
+    {
+      "title": "Null Graph",
+      "content": [
+        "A graph with only vertices and no edges.",
+        "Example: V={A,B,C}, E={}"
+      ]
+    },
+    {
+      "title": "Subgraph",
+      "content": [
+        "A part of a graph formed by taking a subset of vertices and edges.",
+        "Example: From G=(V,E) with V={A,B,C}, E={(A,B),(B,C)}, subgraph can be V’={A,B}, E’={(A,B)}"
+      ]
+    },
+    {
+      "title": "Walk",
+      "content": [
+        "A sequence of vertices and edges where each edge connects the current vertex to the next.",
+        "Vertices/edges may repeat."
+      ]
+    },
+    {
+      "title": "Path",
+      "content": [
+        "A walk in which no vertex or edge is repeated."
+      ]
+    },
+    {
+      "title": "Circuit (or Cycle)",
+      "content": [
+        "A path that starts and ends at the same vertex with no edge repeated.",
+        "Circuit = closed path."
+      ]
+    },
+    {
+      "title": "Connected and Disconnected Graphs",
+      "content": [
+        "Connected Graph: Path exists between every pair of vertices.",
+        "Disconnected Graph: Some vertices are not connected."
+      ]
+    },
+    {
+      "title": "Components",
+      "content": [
+        "The separate connected parts of a disconnected graph."
+      ]
+    },
+    {
+      "title": "Euler Graph",
+      "content": [
+        "A graph with a closed trail (Euler circuit) visiting every edge exactly once.",
+        "Condition: All vertices must have even degree."
+      ]
+    },
+    {
+      "title": "Hamiltonian Path and Circuit",
+      "content": [
+        "Hamiltonian Path: Visits every vertex exactly once, not necessarily returning.",
+        "Hamiltonian Circuit: Hamiltonian path that starts and ends at the same vertex."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "UNIT-II": "Algorithm and Flowcharts",
+  "topics": [
+    {
+      "title": "Algorithm",
+      "content": [
+        "Step-by-step procedure to solve a problem.",
+        "Characteristics: Finite, Definite, Input, Output, Effective."
+      ]
+    },
+    {
+      "title": "Advantages of Algorithm",
+      "content": [
+        "Easy to understand, helps debugging, blueprint for programs."
+      ]
+    },
+    {
+      "title": "Disadvantages of Algorithm",
+      "content": [
+        "Time consuming, complex for big problems."
+      ]
+    },
+    {
+      "title": "Examples",
+      "content": [
+        "Find largest of two numbers, Find sum of numbers."
+      ]
+    },
+    {
+      "title": "Flowchart",
+      "content": [
+        "Diagram showing process steps with symbols & arrows."
+      ]
+    },
+    {
+      "title": "Flowchart Symbols",
+      "content": [
+        "Oval (Start/End), Rectangle (Process), Diamond (Decision), Parallelogram (I/O), Arrow (Flow)."
+      ]
+    },
+    {
+      "title": "Advantages of Flowcharts",
+      "content": [
+        "Visual, easy to debug, good for documentation."
+      ]
+    },
+    {
+      "title": "Disadvantages of Flowcharts",
+      "content": [
+        "Large for complex programs, hard to modify."
+      ]
+    }
+  ]
+}

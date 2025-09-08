@@ -1,0 +1,83 @@
+{
+  "UNIT-V": "Directed Graphs",
+  "topics": [
+    {
+      "title": "Directed Graph (Digraph)",
+      "content": [
+        "Graph with edges having directions.",
+        "Example: A → B means from A to B only."
+      ]
+    },
+    {
+      "title": "Types of Digraphs",
+      "content": [
+        "Simple Digraph – No loops, no multiple edges.",
+        "Multi Digraph – Multiple edges allowed.",
+        "Symmetric Digraph – A → B implies B → A.",
+        "Asymmetric Digraph – A → B exists, but not B → A.",
+        "Mixed Digraph – Contains both directed and undirected edges."
+      ]
+    },
+    {
+      "title": "Properties of Digraphs",
+      "content": [
+        "In-degree = edges coming into vertex.",
+        "Out-degree = edges going out from vertex.",
+        "Total Degree = In-degree + Out-degree.",
+        "Sum of all in-degrees = sum of all out-degrees = number of edges."
+      ]
+    },
+    {
+      "title": "Digraphs and Binary Relations",
+      "content": [
+        "Binary relation R on set A can be represented as digraph.",
+        "If (a,b) ∈ R, draw edge a → b."
+      ]
+    },
+    {
+      "title": "Directed Path",
+      "content": [
+        "Sequence of vertices connected by edges, all in same direction.",
+        "Example: A → B → C"
+      ]
+    },
+    {
+      "title": "Connectedness in Digraphs",
+      "content": [
+        "Strongly Connected – Paths exist both ways between every pair.",
+        "Weakly Connected – Connected if directions ignored.",
+        "Unilaterally Connected – At least one of u → v or v → u exists."
+      ]
+    },
+    {
+      "title": "Euler Digraphs",
+      "content": [
+        "Closed trail using every edge exactly once.",
+        "Conditions: In-degree = Out-degree for all vertices, and graph strongly connected."
+      ]
+    },
+    {
+      "title": "Directed Trees",
+      "content": [
+        "Tree with directed edges.",
+        "Rooted with edges outward (arborescence) or inward (in-arborescence).",
+        "No cycles allowed."
+      ]
+    },
+    {
+      "title": "Fundamental Circuits in Digraphs",
+      "content": [
+        "Closed directed path formed when a non-tree edge is added to spanning tree.",
+        "Each added edge creates one circuit."
+      ]
+    },
+    {
+      "title": "Adjacency Matrix of a Digraph",
+      "content": [
+        "Square matrix showing vertex-to-vertex connections.",
+        "A[i][j] = 1 if edge i → j exists, else 0.",
+        "For weighted digraphs, entry = weight."
+      ]
+    }
+  ]
+}

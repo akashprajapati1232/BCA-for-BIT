@@ -1,0 +1,121 @@
+{
+  "UNIT-II": "Mathematical Logic",
+  "topics": [
+    {
+      "title": "Introduction",
+      "content": [
+        "Mathematical Logic is the study of rules and principles of reasoning.",
+        "It helps check whether a statement is true or false using logical rules.",
+        "Mainly used in computer science for programming, algorithms, and proofs.",
+        "Example: 'If it rains, then the ground is wet.'"
+      ]
+    },
+    {
+      "title": "Connectives",
+      "content": [
+        "AND ( ∧ ) → True only if both are True.",
+        "OR ( ∨ ) → True if at least one is True.",
+        "NOT ( ¬ ) → Opposite of the statement.",
+        "IF–THEN ( → ) → False only when first is True and second is False.",
+        "IF AND ONLY IF ( ↔ ) → True when both are same (both True or both False)."
+      ]
+    },
+    {
+      "title": "Negation",
+      "content": [
+        "Negation means opposite of a statement.",
+        "If a statement is True, its negation is False and vice versa.",
+        "Symbol: ¬p",
+        "Example: p = 'It is raining', ¬p = 'It is NOT raining'"
+      ]
+    },
+    {
+      "title": "Conjunction",
+      "content": [
+        "Combining two statements with AND ( ∧ ).",
+        "True only if both statements are True.",
+        "Symbol: p ∧ q",
+        "Example: 'I study AND I pass.'"
+      ]
+    },
+    {
+      "title": "Disjunction",
+      "content": [
+        "Combining two statements with OR ( ∨ ).",
+        "True if at least one statement is True.",
+        "Symbol: p ∨ q",
+        "Example: 'I study OR I play.'"
+      ]
+    },
+    {
+      "title": "Conditional",
+      "content": [
+        "If–Then statement.",
+        "False only when first is True and second is False.",
+        "Symbol: p → q",
+        "Example: 'If I study, then I pass.'"
+      ]
+    },
+    {
+      "title": "Bi-conditional",
+      "content": [
+        "If and only if ( ↔ ).",
+        "True when both statements have same truth value.",
+        "Symbol: p ↔ q",
+        "Example: 'I study if and only if I pass.'"
+      ]
+    },
+    {
+      "title": "Statement Formulas",
+      "content": [
+        "Combination of statements + connectives.",
+        "Built using variables (p, q, r...), logical connectives, and brackets.",
+        "Examples: ¬p, (p ∧ q) → r, (p ∨ ¬q) ↔ (r ∧ s)"
+      ]
+    },
+    {
+      "title": "Tautology and Contradiction",
+      "content": [
+        "Tautology: always True. Example: p ∨ ¬p",
+        "Contradiction: always False. Example: p ∧ ¬p"
+      ]
+    },
+    {
+      "title": "Equivalence Formulae",
+      "content": [
+        "Two formulas are equivalent if they always give same truth values.",
+        "Common equivalences:",
+        "Double Negation: ¬(¬p) ≡ p",
+        "Implication: (p → q) ≡ (¬p ∨ q)",
+        "Contrapositive: (p → q) ≡ (¬q → ¬p)",
+        "De Morgan’s Laws: ¬(p ∧ q) ≡ (¬p ∨ ¬q), ¬(p ∨ q) ≡ (¬p ∧ ¬q)",
+        "Biconditional: (p ↔ q) ≡ (p → q) ∧ (q → p)"
+      ]
+    },
+    {
+      "title": "Normal Forms",
+      "content": [
+        "Disjunctive Normal Form (DNF/PDNF): OR of AND terms. Example: (p ∧ q) ∨ (¬p ∧ r)",
+        "Conjunctive Normal Form (CNF/PCNF): AND of OR terms. Example: (p ∨ q) ∧ (¬p ∨ r)"
+      ]
+    },
+    {
+      "title": "Principal Normal Forms",
+      "content": [
+        "PDNF: OR of all minterms where formula is True.",
+        "Example: (p ∨ q) → PDNF = (p ∧ ¬q) ∨ (¬p ∧ q) ∨ (p ∧ q)",
+        "PCNF: AND of all maxterms where formula is False.",
+        "Example: (p ∨ q) → PCNF = (p ∨ q)"
+      ]
+    },
+    {
+      "title": "Theory of Inferences using Truth Tables",
+      "content": [
+        "Inference = drawing conclusion from premises.",
+        "Valid if conclusion is True whenever premises are True.",
+        "Steps: write premises & conclusion, make truth table, check validity.",
+        "Example (Modus Ponens): Premises: (p → q), p → Conclusion: q"
+      ]
+    }
+  ]
+}

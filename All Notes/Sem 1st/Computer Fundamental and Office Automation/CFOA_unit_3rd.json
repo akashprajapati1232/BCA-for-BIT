@@ -1,0 +1,43 @@
+{
+  "UNIT-III": "Operating Systems & DOS",
+  "topics": [
+    {
+      "title": "Operating System",
+      "content": [
+        "Controls computer hardware & software.",
+        "Services: File, Memory, Process, Device, Security, UI."
+      ]
+    },
+    {
+      "title": "DOS History",
+      "content": [
+        "Disk Operating System, single-user, command-line, 1981."
+      ]
+    },
+    {
+      "title": "Files and Directories in DOS",
+      "content": [
+        "File = data collection, Directory = folder."
+      ]
+    },
+    {
+      "title": "Commands in DOS",
+      "content": [
+        "Internal: DIR, COPY, DEL.",
+        "External: FORMAT, CHKDSK, DISKCOPY."
+      ]
+    },
+    {
+      "title": "Batch Files",
+      "content": [
+        "Text file with .BAT extension, executes commands sequentially."
+      ]
+    },
+    {
+      "title": "Types of OS",
+      "content": [
+        "Batch, Time-Sharing, Real-Time, Distributed, Network OS."
+      ]
+    }
+  ]
+}

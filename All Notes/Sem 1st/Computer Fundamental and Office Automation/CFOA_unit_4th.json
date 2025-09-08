@@ -1,0 +1,37 @@
+{
+  "UNIT-IV": "Windows Environment",
+  "topics": [
+    {
+      "title": "Windows OS",
+      "content": ["GUI based OS with icons, menus, mouse."]
+    },
+    {
+      "title": "Features of Windows",
+      "content": ["GUI, Multitasking, Plug & Play, Networking, Security."]
+    },
+    {
+      "title": "Control Panel",
+      "content": ["Manage system settings."]
+    },
+    {
+      "title": "Taskbar",
+      "content": ["Shows Start menu, apps, tray, clock."]
+    },
+    {
+      "title": "Desktop",
+      "content": ["Main working area with icons, wallpaper."]
+    },
+    {
+      "title": "Applications",
+      "content": ["MS Word, Excel, PowerPoint."]
+    },
+    {
+      "title": "Icons",
+      "content": ["Graphical symbols for programs/files."]
+    },
+    {
+      "title": "Accessories",
+      "content": ["Notepad, Paint, Calculator, WordPad."]
+    }
+  ]
+}

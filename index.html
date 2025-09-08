@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GPT for BCA - Your Personal BCA AI Assistant</title>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <a href="index.html" class="nav-logo">
+                    <i class="fas fa-robot"></i>
+                    <span>GPT for BCA</span>
+                </a>
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="nav-link active">Home</a></li>
+                    <li><a href="Pages/about.html" class="nav-link">About</a></li>
+                    <li><a href="Pages/syllabus.html" class="nav-link">Syllabus</a></li>
+                    <li><a href="Pages/contact.html" class="nav-link">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-background">
+            <div class="floating-shapes">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+                <div class="shape shape-3"></div>
+                <div class="shape shape-4"></div>
+                <div class="shape shape-5"></div>
+            </div>
+        </div>
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <i class="fas fa-sparkles"></i>
+                    <span>Powered by Gemini AI</span>
+                </div>
+                <h1 class="hero-title">
+                    <span class="title-line">Your Personal</span>
+                    <span class="title-line gradient-text">BCA AI Assistant</span>
+                </h1>
+                <p class="hero-subtitle">Get instant answers, syllabus-based support, and short notes for all BCA subjects with our advanced AI technology.</p>
+                <div class="hero-buttons">
+                    <a href="Chat/index.html" class="btn-start-chat">
+                        <i class="fas fa-graduation-cap"></i>
+                        <span>Start Learning</span>
+                        <div class="btn-glow"></div>
+                    </a>
+                    <a href="Pages/about.html" class="btn-secondary-hero">
+                        <i class="fas fa-info-circle"></i>
+                        <span>Learn More</span>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section class="how-it-works">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <div class="section-badge">
+                    <i class="fas fa-cogs"></i>
+                    <span>How It Works</span>
+                </div>
+                <h2 class="section-title">See GPT for BCA in Action</h2>
+                <p class="section-subtitle">Experience how our AI assistant helps BCA students learn effectively</p>
+            </div>
+
+            <div class="chat-demo" data-aos="fade-up" data-aos-delay="200">
+                <div class="chat-container">
+                    <div class="chat-header">
+                        <div class="chat-avatar">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                        <div class="chat-info">
+                            <h4>GPT for BCA Assistant</h4>
+                            <span class="status">Online</span>
+                        </div>
+                    </div>
+
+                    <div class="chat-messages">
+                        <div class="message user-message" data-aos="fade-right" data-aos-delay="400">
+                            <div class="message-content">
+                                <p>Can you explain what is Object-Oriented Programming in Java?</p>
+                            </div>
+                            <div class="message-time">You</div>
+                        </div>
+
+                        <div class="message ai-message" data-aos="fade-left" data-aos-delay="600">
+                            <div class="message-avatar">
+                                <i class="fas fa-robot"></i>
+                            </div>
+                            <div class="message-content">
+                                <p><strong>Object-Oriented Programming (OOP)</strong> is a programming paradigm based on the concept of "objects" which contain data and code.</p>
+                                <div class="code-example">
+                                    <code>
+class Student {<br>
+&nbsp;&nbsp;String name;<br>
+&nbsp;&nbsp;int rollNo;<br>
+&nbsp;&nbsp;<br>
+&nbsp;&nbsp;void displayInfo() {<br>
+&nbsp;&nbsp;&nbsp;&nbsp;System.out.println("Name: " + name);<br>
+&nbsp;&nbsp;}<br>
+}
+                                    </code>
+                                </div>
+                                <p>Key principles: <strong>Encapsulation</strong>, <strong>Inheritance</strong>, <strong>Polymorphism</strong>, and <strong>Abstraction</strong>.</p>
+                            </div>
+                        </div>
+
+                        <div class="message user-message" data-aos="fade-right" data-aos-delay="800">
+                            <div class="message-content">
+                                <p>Can you give me a practical example for my BCA project?</p>
+                            </div>
+                            <div class="message-time">You</div>
+                        </div>
+
+                        <div class="message ai-message" data-aos="fade-left" data-aos-delay="1000">
+                            <div class="message-avatar">
+                                <i class="fas fa-robot"></i>
+                            </div>
+                            <div class="message-content">
+                                <p>Perfect! Here's a <strong>Library Management System</strong> example:</p>
+                                <ul>
+                                    <li><strong>Book Class:</strong> Properties (title, author, ISBN) + Methods (checkOut, return)</li>
+                                    <li><strong>Student Class:</strong> Properties (name, ID) + Methods (borrowBook, returnBook)</li>
+                                    <li><strong>Library Class:</strong> Manages books and students</li>
+                                </ul>
+                                <p>This demonstrates all OOP concepts and is perfect for BCA projects! 🎓</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="chat-input-demo">
+                        <div class="input-placeholder">
+                            <i class="fas fa-edit"></i>
+                            <span>Ask anything about BCA subjects...</span>
+                        </div>
+                        <div class="send-button">
+                            <i class="fas fa-paper-plane"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="how-it-works-steps" data-aos="fade-up" data-aos-delay="300">
+                <div class="step-item" data-aos="zoom-in" data-aos-delay="400">
+                    <div class="step-number">1</div>
+                    <h3>Ask Your Question</h3>
+                    <p>Type any BCA-related question about programming, databases, networking, or any subject</p>
+                </div>
+                <div class="step-item" data-aos="zoom-in" data-aos-delay="600">
+                    <div class="step-number">2</div>
+                    <h3>Get Instant Answers</h3>
+                    <p>Receive detailed explanations, code examples, and practical solutions immediately</p>
+                </div>
+                <div class="step-item" data-aos="zoom-in" data-aos-delay="800">
+                    <div class="step-number">3</div>
+                    <h3>Learn & Apply</h3>
+                    <p>Use the knowledge for assignments, projects, and exam preparation</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-badge">
+                    <i class="fas fa-star"></i>
+                    <span>Features</span>
+                </div>
+                <h2 class="section-title">Why Choose GPT for BCA?</h2>
+                <p class="section-subtitle">Discover the powerful features that make learning easier and more effective</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="feature-icon">
+                        <i class="fas fa-book-open"></i>
+                        <div class="icon-bg"></div>
+                    </div>
+                    <h3>Syllabus Integrated</h3>
+                    <p>All semesters covered with complete BCA curriculum-aligned content and explanations.</p>
+                    <div class="feature-arrow">
+                        <i class="fas fa-arrow-right"></i>
+                    </div>
+                </div>
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="feature-icon">
+                        <i class="fas fa-sticky-note"></i>
+                        <div class="icon-bg"></div>
+                    </div>
+                    <h3>Short Notes Access</h3>
+                    <p>Quick revision anytime with concise notes and summaries for efficient study sessions.</p>
+                    <div class="feature-arrow">
+                        <i class="fas fa-arrow-right"></i>
+                    </div>
+                </div>
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="feature-icon">
+                        <i class="fas fa-brain"></i>
+                        <div class="icon-bg"></div>
+                    </div>
+                    <h3>Gemini Powered</h3>
+                    <p>Smart & accurate answers powered by Google's Gemini AI technology for reliable responses.</p>
+                    <div class="feature-arrow">
+                        <i class="fas fa-arrow-right"></i>
+                    </div>
+                </div>
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="feature-icon">
+                        <i class="fas fa-users"></i>
+                        <div class="icon-bg"></div>
+                    </div>
+                    <h3>For BCA Students Only</h3>
+                    <p>College exclusive portal designed specifically for BCA students with relevant content.</p>
+                    <div class="feature-arrow">
+                        <i class="fas fa-arrow-right"></i>
+                    </div>
+                </div>
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="500">
+                    <div class="feature-icon">
+                        <i class="fas fa-clock"></i>
+                        <div class="icon-bg"></div>
+                    </div>
+                    <h3>24/7 Availability</h3>
+                    <p>Access your AI study companion anytime, anywhere. Get instant help with your queries round the clock.</p>
+                    <div class="feature-arrow">
+                        <i class="fas fa-arrow-right"></i>
+                    </div>
+                </div>
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="600">
+                    <div class="feature-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                        <div class="icon-bg"></div>
+                    </div>
+                    <h3>Exam Preparation</h3>
+                    <p>Comprehensive exam preparation with practice questions, mock tests, and detailed explanations for better results.</p>
+                    <div class="feature-arrow">
+                        <i class="fas fa-arrow-right"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-badge">
+                    <i class="fas fa-question-circle"></i>
+                    <span>FAQ</span>
+                </div>
+                <h2 class="section-title">Frequently Asked Questions</h2>
+                <p class="section-subtitle">Find answers to common questions about GPT for BCA</p>
+            </div>
+            <div class="faq-grid">
+                <div class="faq-item" data-aos="fade-up" data-aos-delay="100">
+                    <h4>How accurate are the AI responses?</h4>
+                    <p>Our AI is powered by Google's Gemini technology and trained on BCA curriculum content to provide highly accurate, syllabus-aligned responses.</p>
+                </div>
+
+                <div class="faq-item" data-aos="fade-up" data-aos-delay="200">
+                    <h4>Is GPT for BCA free to use?</h4>
+                    <p>Yes, GPT for BCA is completely free for all BCA students. Our mission is to make quality education accessible to everyone.</p>
+                </div>
+
+                <div class="faq-item" data-aos="fade-up" data-aos-delay="300">
+                    <h4>Can I suggest new features?</h4>
+                    <p>Absolutely! We welcome feature suggestions from students. Use the contact form or email us directly with your ideas.</p>
+                </div>
+
+                <div class="faq-item" data-aos="fade-up" data-aos-delay="400">
+                    <h4>How do I report a bug or issue?</h4>
+                    <p>Please use the contact form with "Bug Report" as the subject, or email us directly with details about the issue you encountered.</p>
+                </div>
+
+                <div class="faq-item" data-aos="fade-up" data-aos-delay="500">
+                    <h4>What subjects and topics are covered?</h4>
+                    <p>GPT for BCA covers all core BCA subjects including Programming Languages, Database Management, Web Development, Data Structures, Computer Networks, and more across all 6 semesters.</p>
+                </div>
+
+                <div class="faq-item" data-aos="fade-up" data-aos-delay="600">
+                    <h4>Can I access GPT for BCA on mobile devices?</h4>
+                    <p>Yes! GPT for BCA is fully responsive and works seamlessly on all devices including smartphones, tablets, and desktops for learning on-the-go.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-links">
+                    <a href="index.html">Home</a>
+                    <a href="Pages/about.html">About</a>
+                    <a href="Pages/syllabus.html">Syllabus</a>
+                    <a href="Pages/contact.html">Contact</a>
+                </div>
+                <div class="footer-text">
+                    <p>&copy; GPT for BCA | Created by <span class="team-highlight">Team Error 404</span> | 2025</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+    <script>
+        AOS.init({
+            duration: 800,
+            easing: 'ease-in-out',
+            once: true,
+            offset: 100
+        });
+    </script>
+</body>
+</html>

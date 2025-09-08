@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat - GPT for BCA</title>
+    <link rel="icon" type="image/svg+xml" href="../favicon.svg">
+    <link rel="stylesheet" href="chat-styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="chat-container">
+        <!-- Sidebar -->
+        <div class="sidebar" id="sidebar">
+            <div class="sidebar-header">
+                <a href="../index.html" class="logo">
+                    <i class="fas fa-robot"></i>
+                    <span>GPT for BCA</span>
+                </a>
+                <button class="new-chat-btn" id="newChatBtn">
+                    <i class="fas fa-plus"></i>
+                    New Chat
+                </button>
+            </div>
+            
+            <div class="chat-history" id="chatHistory">
+                <div class="history-section">
+                    <h3>Recent Chats</h3>
+                    <div class="chat-list" id="chatList">
+                        <!-- Chat history will be populated here -->
+                    </div>
+                </div>
+            </div>
+            
+            <div class="sidebar-footer">
+                <div class="footer-text">
+                    <p>Created by <span class="team-highlight">Team Error 404</span></p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main Chat Area -->
+        <div class="main-chat">
+            <!-- Mobile Header -->
+            <div class="mobile-header">
+                <button class="sidebar-toggle" id="sidebarToggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="mobile-logo">
+                    <i class="fas fa-robot"></i>
+                    <span>GPT for BCA</span>
+                </div>
+                <button class="mobile-new-chat" id="mobileNewChat">
+                    <i class="fas fa-plus"></i>
+                </button>
+            </div>
+
+            <!-- Welcome Screen -->
+            <div class="welcome-screen" id="welcomeScreen">
+                <div class="welcome-content">
+                    <div class="welcome-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h1>Welcome to GPT for BCA</h1>
+                    <p>Your Personal BCA AI Assistant</p>
+                    <div class="sample-questions">
+                        <h3>Try asking:</h3>
+                        <div class="question-cards">
+                            <button class="question-card" data-question="What is DBMS normalization?">
+                                <i class="fas fa-database"></i>
+                                <span>What is DBMS normalization?</span>
+                            </button>
+                            <button class="question-card" data-question="Explain object-oriented programming concepts">
+                                <i class="fas fa-code"></i>
+                                <span>Explain OOP concepts</span>
+                            </button>
+                            <button class="question-card" data-question="What are data structures?">
+                                <i class="fas fa-sitemap"></i>
+                                <span>What are data structures?</span>
+                            </button>
+                            <button class="question-card" data-question="How does computer networking work?">
+                                <i class="fas fa-network-wired"></i>
+                                <span>How does networking work?</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Chat Messages -->
+            <div class="chat-messages" id="chatMessages" style="display: none;">
+                <!-- Messages will be populated here -->
+            </div>
+
+            <!-- Input Area -->
+            <div class="input-area" id="inputArea">
+                <div class="input-container">
+                    <textarea 
+                        id="messageInput" 
+                        placeholder="Ask me anything about BCA subjects..."
+                        rows="1"
+                    ></textarea>
+                    <button id="sendButton" class="send-btn" disabled>
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </div>
+                <div class="input-footer">
+                    <p>GPT for BCA can make mistakes. Consider checking important information.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Overlay for mobile sidebar -->
+    <div class="sidebar-overlay" id="sidebarOverlay"></div>
+
+    <!-- Login/Guest Mode Selection Modal -->
+    <div class="auth-modal-overlay" id="authModalOverlay">
+        <div class="auth-modal">
+            <div class="auth-modal-header">
+                <div class="auth-modal-icon">
+                    <i class="fas fa-robot"></i>
+                </div>
+            </div>
+
+            <div class="auth-modal-content">
+                <!-- Create Account Form (initially visible) -->
+                <div class="signup-form" id="signupForm">
+                    <div class="form-header">
+                        <h3>Create Your Account</h3>
+                        <p>Join GPT for BCA to save your chats</p>
+                    </div>
+                    <div class="form-group">
+                        <label for="signupName">Full Name</label>
+                        <input type="text" id="signupName" placeholder="Enter your full name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="signupEmail">Email Address</label>
+                        <input type="email" id="signupEmail" placeholder="Enter your email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="signupPassword">Password</label>
+                        <div class="password-input-container">
+                            <input type="password" id="signupPassword" placeholder="Create a strong password" required>
+                            <button type="button" class="password-toggle" onclick="togglePassword('signupPassword')">
+                                <i class="fas fa-eye" id="signupPasswordToggleIcon"></i>
+                            </button>
+                        </div>
+                        <div class="password-requirements" id="passwordRequirements">
+                            <div class="requirement" id="req-length">
+                                <i class="fas fa-times"></i> At least 8 characters
+                            </div>
+                            <div class="requirement" id="req-uppercase">
+                                <i class="fas fa-times"></i> One uppercase letter
+                            </div>
+                            <div class="requirement" id="req-lowercase">
+                                <i class="fas fa-times"></i> One lowercase letter
+                            </div>
+                            <div class="requirement" id="req-number">
+                                <i class="fas fa-times"></i> One number
+                            </div>
+                            <div class="requirement" id="req-special">
+                                <i class="fas fa-times"></i> One special character
+                            </div>
+                        </div>
+                    </div>
+                    <button class="auth-form-btn primary" id="createAccountBtn">
+                        <i class="fas fa-user-plus"></i>
+                        Create Account
+                    </button>
+                    <div class="form-footer">
+                        <p>Already have an account? <button class="link-btn" id="showLoginBtn">Sign in here</button></p>
+                    </div>
+                </div>
+
+                <!-- Login Form (initially hidden) -->
+                <div class="login-form" id="loginForm" style="display: none;">
+                    <div class="form-header">
+                        <h3>Welcome Back</h3>
+                        <p>Sign in to your account</p>
+                    </div>
+                    <div class="form-group">
+                        <label for="loginEmail">Email Address</label>
+                        <input type="email" id="loginEmail" placeholder="Enter your email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="loginPassword">Password</label>
+                        <div class="password-input-container">
+                            <input type="password" id="loginPassword" placeholder="Enter your password" required>
+                            <button type="button" class="password-toggle" onclick="togglePassword('loginPassword')">
+                                <i class="fas fa-eye" id="loginPasswordToggleIcon"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <button class="auth-form-btn primary" id="emailLoginBtn">
+                        <i class="fas fa-sign-in-alt"></i>
+                        Sign In
+                    </button>
+                    <div class="form-footer">
+                        <p>Don't have an account? <button class="link-btn" id="showSignupBtn">Create one here</button></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Firebase SDKs -->
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js";
+        import { getAuth } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-auth.js";
+        import { getFirestore } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore.js";
+
+        // Your web app's Firebase configuration
+        const firebaseConfig = {
+            // You'll need to replace these with your actual Firebase config
+            apiKey: "AIzaSyA8wIGirTTQ35XdNcCDedk6eK9SQbXKXOI",
+            authDomain: "gptforbca-c2bbd.firebaseapp.com",
+            projectId: "gptforbca-c2bbd",
+            storageBucket: "gptforbca-c2bbd.firebasestorage.app",
+            messagingSenderId: "797780759108",
+            appId: "1:797780759108:web:ea86f66da1fb2858966211",
+            measurementId: "G-9MEB619WV4"
+        };
+
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const auth = getAuth(app);
+        const db = getFirestore(app);
+
+        // Make Firebase services available globally
+        window.firebaseAuth = auth;
+        window.firebaseDb = db;
+        window.firebaseApp = app;
+    </script>
+    <script src="firebase-auth.js"></script>
+    <script src="firebase-storage.js"></script>
+    <script src="chat-script.js"></script>
+
+    <script>
+        // Password visibility toggle function
+        function togglePassword(inputId) {
+            const passwordInput = document.getElementById(inputId);
+            const toggleIcon = document.getElementById(inputId + 'ToggleIcon');
+
+            if (passwordInput.type === 'password') {
+                passwordInput.type = 'text';
+                toggleIcon.classList.remove('fa-eye');
+                toggleIcon.classList.add('fa-eye-slash');
+            } else {
+                passwordInput.type = 'password';
+                toggleIcon.classList.remove('fa-eye-slash');
+                toggleIcon.classList.add('fa-eye');
+            }
+        }
+
+        // Real-time password validation
+        document.addEventListener('DOMContentLoaded', function() {
+            const signupPassword = document.getElementById('signupPassword');
+            if (signupPassword) {
+                signupPassword.addEventListener('input', function() {
+                    validatePasswordRealTime(this.value);
+                });
+            }
+        });
+
+        function validatePasswordRealTime(password) {
+            const requirements = {
+                'req-length': password.length >= 8,
+                'req-uppercase': /[A-Z]/.test(password),
+                'req-lowercase': /[a-z]/.test(password),
+                'req-number': /[0-9]/.test(password),
+                'req-special': /[!@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/?]/.test(password)
+            };
+
+            Object.keys(requirements).forEach(reqId => {
+                const element = document.getElementById(reqId);
+                if (element) {
+                    if (requirements[reqId]) {
+                        element.classList.add('valid');
+                    } else {
+                        element.classList.remove('valid');
+                    }
+                }
+            });
+        }
+    </script>
+</body>
+</html>

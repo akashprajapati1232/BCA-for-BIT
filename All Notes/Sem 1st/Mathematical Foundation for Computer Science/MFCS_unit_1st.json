@@ -1,0 +1,101 @@
+{
+  "UNIT-I": "Matrix Theory",
+  "topics": [
+    {
+      "title": "Matrix",
+      "content": [
+        "A matrix is a rectangular arrangement of numbers in rows and columns.",
+        "It is written as m×n, where m = rows, n = columns.",
+        "Example: A = [[1,2,3],[4,5,6]] (2×3 matrix)"
+      ]
+    },
+    {
+      "title": "Types of Matrices",
+      "content": [
+        "Row Matrix → Only one row. Example: [1 2 3]",
+        "Column Matrix → Only one column. Example: [4;5;6]",
+        "Square Matrix → Rows = Columns (n×n). Example: [[1,2],[3,4]]",
+        "Diagonal Matrix → Non-zero only on the main diagonal. Example: [[5,0],[0,7]]",
+        "Scalar Matrix → Diagonal matrix with equal diagonal elements. Example: [[3,0],[0,3]]",
+        "Identity Matrix → Diagonal elements = 1. Example: [[1,0],[0,1]]",
+        "Zero Matrix → All elements are zero. Example: [[0,0],[0,0]]",
+        "Upper Triangular Matrix → Elements below diagonal = 0. Example: [[1,2,3],[0,4,5],[0,0,6]]",
+        "Lower Triangular Matrix → Elements above diagonal = 0. Example: [[1,0,0],[4,5,0],[7,8,9]]",
+        "Symmetric Matrix → A = Aᵀ. Example: [[1,2],[2,3]]",
+        "Skew-Symmetric Matrix → Aᵀ = -A. Example: [[0,2],[-2,0]]"
+      ]
+    },
+    {
+      "title": "Matrix Operations",
+      "content": [
+        "Addition → Add corresponding elements.",
+        "Subtraction → Subtract corresponding elements.",
+        "Scalar Multiplication → Multiply each element by a constant.",
+        "Matrix Multiplication → Row × Column rule (cols of 1st = rows of 2nd).",
+        "Transpose → Flip rows ↔ columns.",
+        "Determinant → Scalar value for a square matrix. Example: |[a b; c d]| = ad - bc",
+        "Inverse → Exists only if determinant ≠ 0."
+      ]
+    },
+    {
+      "title": "Properties of Matrix Operations",
+      "content": [
+        "Addition: Commutative, Associative, Identity, Inverse",
+        "Multiplication: Associative, Distributive, Not commutative, Identity",
+        "Transpose: (A+B)ᵀ = Aᵀ + Bᵀ, (AB)ᵀ = Bᵀ Aᵀ, (Aᵀ)ᵀ = A",
+        "Determinant: |AB| = |A|·|B|, |Aᵀ| = |A|"
+      ]
+    },
+    {
+      "title": "Eigenvalues & Eigenvectors",
+      "content": [
+        "Eigenvectors are special vectors whose direction does not change when multiplied by a matrix.",
+        "Eigenvalue (λ) is the stretching/shrinking factor.",
+        "Equation: Av = λv, v ≠ 0",
+        "Find eigenvalues by solving |A - λI| = 0.",
+        "Example: A = [[4,0],[0,2]], eigenvalues = 4,2; eigenvectors = [1,0]ᵀ, [0,1]ᵀ"
+      ]
+    },
+    {
+      "title": "Equivalent Matrices",
+      "content": [
+        "Two matrices are equivalent if one can be obtained from the other by elementary row/column operations.",
+        "Notation: A ~ B",
+        "Equivalent matrices have the same rank."
+      ]
+    },
+    {
+      "title": "Elementary Row Operations",
+      "content": [
+        "Row Swap: R1 ↔ R2",
+        "Row Scaling: R2 → 3R2",
+        "Row Replacement: R2 → R2 - 2R1",
+        "Uses: finding rank, echelon form, solving linear equations"
+      ]
+    },
+    {
+      "title": "Elementary Column Operations",
+      "content": [
+        "Column Swap: C1 ↔ C2",
+        "Column Scaling: C2 → 3C2",
+        "Column Replacement: C2 → C2 - 2C1"
+      ]
+    },
+    {
+      "title": "Rank of a Matrix (Normal Form)",
+      "content": [
+        "Rank = number of non-zero rows after reducing to normal form.",
+        "Steps: Apply row/column operations, convert to normal form, count independent rows.",
+        "Example: Matrix [[1,2,3],[2,4,6],[1,1,1]] → rank = 2"
+      ]
+    },
+    {
+      "title": "Rank of a Matrix (Echelon Form)",
+      "content": [
+        "Echelon form: non-zero rows above zero rows, pivots to the right, zeros below pivots.",
+        "Steps: Apply row operations → echelon form → count non-zero rows.",
+        "Example: Matrix [[1,2,3],[2,4,6],[1,1,1]] → rank = 2"
+      ]
+    }
+  ]
+}

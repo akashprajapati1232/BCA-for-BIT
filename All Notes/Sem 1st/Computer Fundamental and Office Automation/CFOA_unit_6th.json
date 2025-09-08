@@ -1,0 +1,29 @@
+{
+  "UNIT-VI": "Spreadsheets, Databases, PPT",
+  "topics": [
+    {
+      "title": "Spreadsheets",
+      "content": ["Organize data in rows/columns, formulas, charts.", "Example: MS Excel."]
+    },
+    {
+      "title": "Database Packages",
+      "content": ["Store/manage structured data.", "Examples: MS Access, Oracle, MySQL."]
+    },
+    {
+      "title": "Commands in Excel",
+      "content": ["SUM(), AVG(), IF(), VLOOKUP(), Cell references."]
+    },
+    {
+      "title": "MS Access",
+      "content": ["DBMS for creating and managing databases."]
+    },
+    {
+      "title": "Switching Applications",
+      "content": ["Alt+Tab to switch tasks."]
+    },
+    {
+      "title": "MS PowerPoint",
+      "content": ["Create slides, templates, animations, transitions."]
+    }
+  ]
+}

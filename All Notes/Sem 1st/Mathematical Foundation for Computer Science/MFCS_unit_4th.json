@@ -1,0 +1,114 @@
+{
+  "UNIT-IV": "Trees and Matrix Representation",
+  "topics": [
+    {
+      "title": "Tree",
+      "content": [
+        "A tree is a connected graph with no cycles.",
+        "A tree with n vertices has (n – 1) edges.",
+        "Example: Family hierarchy, file directory."
+      ]
+    },
+    {
+      "title": "Types of Trees",
+      "content": [
+        "Rooted Tree – Special node as root.",
+        "Binary Tree – Each node has ≤ 2 children.",
+        "Full Binary Tree – Each node has 0 or 2 children.",
+        "Complete Binary Tree – All levels filled except last (left to right).",
+        "Perfect Binary Tree – All internal nodes 2 children, all leaves same level.",
+        "Degenerate Tree – Each parent has only 1 child.",
+        "Balanced Tree – Left & right subtree heights differ ≤ 1."
+      ]
+    },
+    {
+      "title": "Properties of Trees",
+      "content": [
+        "Tree with n vertices has (n–1) edges.",
+        "Unique path between any 2 vertices.",
+        "Removing one edge disconnects tree.",
+        "Tree with n ≥ 2 has at least 2 leaf nodes."
+      ]
+    },
+    {
+      "title": "Distance and Centres in a Tree",
+      "content": [
+        "Distance: Number of edges in shortest path.",
+        "Eccentricity: Maximum distance from a vertex.",
+        "Centre: Vertex/vertices with minimum eccentricity (1 or 2)."
+      ]
+    },
+    {
+      "title": "Rooted and Binary Trees",
+      "content": [
+        "Rooted Tree: Special node as root.",
+        "Binary Tree: Each node has ≤ 2 children (left & right)."
+      ]
+    },
+    {
+      "title": "Spanning Trees and Fundamental Circuits",
+      "content": [
+        "Spanning Tree: Subgraph including all vertices with no cycles.",
+        "Fundamental Circuit: Adding one edge to a spanning tree creates a cycle."
+      ]
+    },
+    {
+      "title": "Cutset and Properties",
+      "content": [
+        "Cutset: Set of edges whose removal disconnects graph.",
+        "Properties: Disconnects graph, contains edge from spanning tree, min size = 1."
+      ]
+    },
+    {
+      "title": "Matrix Representations",
+      "content": [
+        "Incidence Matrix – Vertices vs edges relationship.",
+        "Circuit Matrix – Circuits vs edges.",
+        "Fundamental Circuit Matrix – Fundamental circuits vs edges.",
+        "Cut-set Matrix – Cut-sets vs edges.",
+        "Path Matrix – Paths vs vertices.",
+        "Adjacency Matrix – Vertex-to-vertex connections."
+      ]
+    },
+    {
+      "title": "Planar Graphs",
+      "content": [
+        "Planar Graph: Can be drawn without edges crossing.",
+        "Euler’s Formula: V – E + F = 2.",
+        "Example: Triangle is planar, K5 is not."
+      ]
+    },
+    {
+      "title": "Dual Graphs",
+      "content": [
+        "Dual graph formed by placing vertices in faces of planar graph.",
+        "Edges connect vertices of adjacent faces.",
+        "Dual of a dual = original graph."
+      ]
+    },
+    {
+      "title": "Kuratowski’s Two Graphs",
+      "content": [
+        "K5: 5 vertices fully connected, non-planar.",
+        "K3,3: Bipartite with 6 vertices, non-planar.",
+        "Graphs containing K5 or K3,3 subgraph are non-planar."
+      ]
+    },
+    {
+      "title": "Representations of Planar Graphs",
+      "content": [
+        "Geometric Representation – Drawn as points/curves.",
+        "Topological Representation – Focuses only on connectivity.",
+        "Matrix Representation – Adjacency/Incidence matrix.",
+        "Dual Graph Representation – Faces → vertices."
+      ]
+    },
+    {
+      "title": "Detection of Planarity",
+      "content": [
+        "Check with Kuratowski’s theorem or Euler’s formula.",
+        "Condition for simple planar graph: E ≤ 3V – 6."
+      ]
+    }
+  ]
+}

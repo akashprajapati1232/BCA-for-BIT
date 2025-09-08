@@ -1,0 +1,90 @@
+{
+  "UNIT-I": "Introduction to Computers",
+  "topics": [
+    {
+      "title": "Computer",
+      "content": [
+        "Electronic machine that takes input, processes it, and gives output.",
+        "Basic functions: Input → Process → Output → Storage."
+      ]
+    },
+    {
+      "title": "Characteristics of Computers",
+      "content": [
+        "Speed, Accuracy, Automation, Storage, Versatility, Connectivity."
+      ]
+    },
+    {
+      "title": "Block Diagram of Computer",
+      "content": [
+        "Input Unit, CPU (ALU, CU, Registers), Memory, Output Unit."
+      ]
+    },
+    {
+      "title": "Types of Computers",
+      "content": [
+        "Supercomputer, Mainframe, Mini, Micro, Laptop."
+      ]
+    },
+    {
+      "title": "Types of Programming Languages",
+      "content": [
+        "Machine, Assembly, High-level languages."
+      ]
+    },
+    {
+      "title": "Data Organization",
+      "content": [
+        "Bit → Byte → Field → Record → File → Database."
+      ]
+    },
+    {
+      "title": "Drives",
+      "content": [
+        "HDD/SSD, Optical drives, Flash drives, Cloud drives."
+      ]
+    },
+    {
+      "title": "Files",
+      "content": [
+        "Collection of data with name & extension."
+      ]
+    },
+    {
+      "title": "Directories",
+      "content": [
+        "Folders containing files & sub-folders."
+      ]
+    },
+    {
+      "title": "Types of Memory",
+      "content": [
+        "Primary (RAM, ROM), Secondary (HDD, SSD, CD, USB)."
+      ]
+    },
+    {
+      "title": "Secondary Storage Devices",
+      "content": [
+        "Floppy, CD, Hard Disk, Pen Drive."
+      ]
+    },
+    {
+      "title": "I/O Devices",
+      "content": [
+        "Scanners, Plotters, LCD, Plasma."
+      ]
+    },
+    {
+      "title": "Number Systems",
+      "content": [
+        "Decimal, Binary, Octal, Hexadecimal."
+      ]
+    },
+    {
+      "title": "Binary Operations",
+      "content": [
+        "Addition, Subtraction, Multiplication."
+      ]
+    }
+  ]
+}
