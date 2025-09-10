@@ -1,29 +1,50 @@
 {
-  "UNIT-VI": "Spreadsheets, Databases, PPT",
-  "topics": [
-    {
-      "title": "Spreadsheets",
-      "content": ["Organize data in rows/columns, formulas, charts.", "Example: MS Excel."]
+  "Unit 6": {
+    "Spreadsheets": {
+      "Definition": "Software used to organize data in rows & columns.",
+      "Functions": ["Performs calculations", "Creates charts", "Data analysis"],
+      "Examples": ["MS Excel"]
     },
-    {
-      "title": "Database Packages",
-      "content": ["Store/manage structured data.", "Examples: MS Access, Oracle, MySQL."]
+    "Database Packages": {
+      "Definition": "Used to store, organize, and manage large data.",
+      "Functions": ["Helps in searching", "Updating", "Reporting"],
+      "Examples": ["MS Access", "Oracle", "MySQL"]
     },
-    {
-      "title": "Commands in Excel",
-      "content": ["SUM(), AVG(), IF(), VLOOKUP(), Cell references."]
+    "Purpose & Usage": {
+      "Spreadsheets": "Best for calculations & analysis.",
+      "Databases": "Best for storing structured data & records."
     },
-    {
-      "title": "MS Access",
-      "content": ["DBMS for creating and managing databases."]
+    "Commands in Spreadsheets": {
+      "Basic Functions": ["SUM()", "AVG()", "IF()", "VLOOKUP()"],
+      "Cell Reference": ["Relative (A1)", "Absolute ($A$1)"]
     },
-    {
-      "title": "Switching Applications",
-      "content": ["Alt+Tab to switch tasks."]
+    "MS-Excel": {
+      "Definition": "A spreadsheet software in MS-Office.",
+      "Features": [
+        "Formulas",
+        "Charts",
+        "Graphs",
+        "Data sorting",
+        "Filtering"
+      ]
     },
-    {
-      "title": "MS PowerPoint",
-      "content": ["Create slides, templates, animations, transitions."]
+    "MS-Access": {
+      "Definition": "A database management system (DBMS) by Microsoft.",
+      "Steps to Create File": [
+        "Open MS-Access",
+        "New Database",
+        "Create Tables",
+        "Save as .accdb file"
+      ]
+    },
+    "Switching Between Applications": {
+      "Definition": "Done using Alt + Tab (Windows shortcut).",
+      "Usage": "Helps multitask between Excel, Word, Access, PowerPoint etc."
+    },
+    "MS-PowerPoint": {
+      "Definition": "A presentation software in MS-Office.",
+      "Features": ["Slides", "Templates", "Animations", "Transitions", "Multimedia"],
+      "Examples": ["Used in classroom teaching", "Seminars", "Business meetings"]
     }
-  ]
+  }
 }

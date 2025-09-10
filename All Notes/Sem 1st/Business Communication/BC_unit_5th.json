@@ -1,0 +1,55 @@
+{
+  "Unit 5": {
+    "Drafting of Business Letters": {
+      "Definition": "Drafting means preparing a clear, simple, and well-structured letter for business purposes.",
+      "Guidelines": [
+        "It should be polite",
+        "It should be brief",
+        "It should be to the point"
+      ],
+      "Example": "Writing a letter to a supplier for order confirmation"
+    },
+    "Enquiries and Replies": {
+      "Enquiry Letter": {
+        "Definition": "Written to ask for details like price, quality, or service.",
+        "Example": "A shopkeeper writing to a company asking for product rates"
+      },
+      "Reply Letter": {
+        "Definition": "Response to an enquiry giving required information.",
+        "Example": "Company replying with price list and discount details"
+      }
+    },
+    "Placing and Fulfilling Orders": {
+      "Placing Order": {
+        "Definition": "Customer sends a letter to buy goods/services.",
+        "Example": "A retailer ordering 50 books from a publisher"
+      },
+      "Fulfilling Order": {
+        "Definition": "Seller confirms and delivers goods as requested.",
+        "Example": "Publisher sending books with invoice and delivery note"
+      }
+    },
+    "Complaints and Follow-up Sales Letters": {
+      "Complaint Letter": {
+        "Definition": "Written when goods/services are defective, delayed, or unsatisfactory.",
+        "Example": "A customer complaining about receiving damaged products"
+      },
+      "Follow-up Sales Letter": {
+        "Definition": "Sent after initial sales contact to remind or encourage purchase.",
+        "Example": "A company sending a letter reminding customer about a product demo or discount offer"
+      }
+    },
+    "Circular Letters": {
+      "Definition": "Sent to many people at once to share common information (like new product launch, change of address, policy updates).",
+      "Example": "A company announcing opening of a new branch"
+    },
+    "Application for Employment": {
+      "Definition": "Formal letter written to apply for a job, showing interest and suitability.",
+      "Example": "Writing to HR for the post of 'Software Trainee'"
+    },
+    "Resume": {
+      "Definition": "A short document listing personal details, education, skills, and experience.",
+      "Example": "Resume showing BCA degree, computer skills, and internship details"
+    }
+  }
+}

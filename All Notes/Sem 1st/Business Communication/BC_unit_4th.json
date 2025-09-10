@@ -1,0 +1,89 @@
+{
+  "Unit 4": {
+    "Business Letters": {
+      "Definition": "A formal written message used for official communication between organizations or with customers.",
+      "Example": "Sending a job offer letter to a candidate"
+    },
+    "Business Reports": {
+      "Definition": "A written document that gives information, analysis, or recommendations for decision-making.",
+      "Example": "Sales report showing monthly performance"
+    },
+    "Need of Business Letters": {
+      "Definition": "Business letters are needed to maintain formal communication, keep written proof, and build professional relationships.",
+      "Example": "A company writes to suppliers for placing an order"
+    },
+    "Functions of Business Letters": {
+      "Definition": "They help in giving information, making requests, creating goodwill, solving complaints, and confirming deals.",
+      "Example": "Complaint letter to a company about defective goods"
+    },
+    "Planning of Business Letter": {
+      "Definition": "Before writing, decide the purpose, collect information, know the receiver, and use clear & polite language.",
+      "Example": "Planning a sales letter by listing product details and benefits"
+    },
+    "Layout of Business Letter": {
+      "Definition": "The physical arrangement of parts in a letter.",
+      "Parts": [
+        "Heading",
+        "Date",
+        "Inside address",
+        "Salutation",
+        "Body",
+        "Closing",
+        "Signature"
+      ],
+      "Example": "A letter with company address at the top, then date, then 'Dear Sir/Madam,' etc."
+    },
+    "Kinds of Business Letters": {
+      "Sales Letters": "To promote products/services. Example: Letter offering discount on new mobiles",
+      "Order Letters": "To place or cancel orders. Example: Shopkeeper ordering 50 chairs from supplier",
+      "Complaint Letters": "To report defects or issues. Example: Complaint about damaged goods",
+      "Enquiry Letters": "To ask for details or information. Example: Asking for quotation of laptops",
+      "Adjustment Letters": "Reply to complaints, giving solution. Example: Company replaces faulty product",
+      "Goodwill Letters": "To build relations. Example: Congratulating a client on success"
+    },
+    "Essentials of Effective Correspondence": [
+      "Clarity – Message must be clear & simple",
+      "Courtesy – Be polite and respectful",
+      "Conciseness – Short and direct",
+      "Completeness – All details must be present",
+      "Correctness – No mistakes in facts/grammar",
+      "Consistency – Keep same style, tone, and format",
+      "Creativity – Use attractive words (especially in sales letters)",
+      "Consideration – Keep in mind reader’s needs/feelings",
+      "Confidentiality – Sensitive info must be protected",
+      "Cheerfulness – Positive and friendly tone helps goodwill"
+    ],
+    "Purpose of Business Correspondence": [
+      "To exchange information clearly and formally. Example: Asking details about product price",
+      "To create records for future reference. Example: Written proof of an order",
+      "To build goodwill & relationships with customers/partners. Example: Sending congratulation or thank-you letter",
+      "To persuade or influence the reader. Example: Sales letter promoting a new service",
+      "To solve problems/complaints quickly. Example: Reply to damaged goods complaint"
+    ],
+    "Kinds of Reports": {
+      "Formal Reports": "Structured, official. Example: Annual report",
+      "Informal Reports": "Short, less formal. Example: Email summary",
+      "Statutory Reports": "Required by law. Example: Company audit report",
+      "Non-Statutory Reports": "Voluntary, for information. Example: Market survey report",
+      "Informational Reports": "Just facts. Example: Sales data report",
+      "Analytical Reports": "With analysis & suggestions. Example: Project feasibility report"
+    },
+    "Objectives of Reports": [
+      "To Inform – Provide facts & details. Example: Sales report showing monthly figures",
+      "To Analyze – Examine data for better understanding. Example: Report comparing two suppliers",
+      "To Recommend – Suggest solutions or actions. Example: Report advising to launch a new product",
+      "To Record – Keep written proof for future use. Example: Annual performance report",
+      "To Support Decision-making – Help managers take correct decisions. Example: Feasibility report before starting a project"
+    ],
+    "Writing Reports": {
+      "Definition": "The process of preparing a structured document that gives information, findings, or suggestions.",
+      "Steps": [
+        "Define Purpose – Why the report is needed. Example: To study sales decline",
+        "Collect Data – Gather facts & information. Example: Sales figures, customer feedback",
+        "Organize Material – Arrange data properly",
+        "Draft Report – Write introduction, body, and conclusion",
+        "Edit & Finalize – Check clarity, accuracy, and format"
+      ]
+    }
+  }
+}

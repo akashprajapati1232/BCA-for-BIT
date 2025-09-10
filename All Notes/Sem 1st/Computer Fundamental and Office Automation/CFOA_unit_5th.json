@@ -1,29 +1,53 @@
 {
-  "UNIT-VI": "Spreadsheets, Databases, PPT",
-  "topics": [
-    {
-      "title": "Spreadsheets",
-      "content": ["Organize data in rows/columns, formulas, charts.", "Example: MS Excel."]
+  "Unit 5": {
+    "Editors and Word Processors": {
+      "Editor": {
+        "Definition": "Simple program to create & edit plain text.",
+        "Example": "Notepad"
+      },
+      "Word Processor": {
+        "Definition": "Advanced software for text editing + formatting + graphics.",
+        "Example": "MS Word"
+      }
     },
-    {
-      "title": "Database Packages",
-      "content": ["Store/manage structured data.", "Examples: MS Access, Oracle, MySQL."]
+    "Basic Concepts of Word Processor": {
+      "Features": [
+        "Editing",
+        "Formatting",
+        "Spell check",
+        "Tables",
+        "Images",
+        "Mail merge"
+      ],
+      "Functions": [
+        "Documents can be saved",
+        "Documents can be printed",
+        "Documents can be shared easily"
+      ]
     },
-    {
-      "title": "Commands in Excel",
-      "content": ["SUM(), AVG(), IF(), VLOOKUP(), Cell references."]
+    "Examples of Word Processors": [
+      "MS Word",
+      "Google Docs",
+      "WordPad",
+      "LibreOffice Writer"
+    ],
+    "MS-Word": {
+      "Definition": "A popular word processor in Microsoft Office suite.",
+      "Features": [
+        "Formatting tools",
+        "Templates",
+        "Mail merge",
+        "Charts",
+        "Images"
+      ]
     },
-    {
-      "title": "MS Access",
-      "content": ["DBMS for creating and managing databases."]
-    },
-    {
-      "title": "Switching Applications",
-      "content": ["Alt+Tab to switch tasks."]
-    },
-    {
-      "title": "MS PowerPoint",
-      "content": ["Create slides, templates, animations, transitions."]
+    "Introduction to Desktop Publishing (DTP)": {
+      "Definition": "DTP software used for creating professional documents, brochures, magazines, flyers with text + graphics.",
+      "Examples": [
+        "Adobe PageMaker",
+        "CorelDRAW",
+        "InDesign"
+      ]
     }
-  ]
+  }
 }

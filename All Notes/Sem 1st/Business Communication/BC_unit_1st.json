@@ -1,0 +1,93 @@
+{
+  "Unit 1": {
+    "Means of Communication": {
+      "Definition": "The ways or methods through which people exchange ideas, thoughts, or information are called means of communication.",
+      "Types": {
+        "Verbal": "Using spoken or written words. Example: Telephone call, Email",
+        "Non-Verbal": "Using body language, gestures, or facial expressions. Example: Nodding head for 'yes'",
+        "Visual": "Using pictures, charts, or symbols. Example: Road signs, Graphs"
+      },
+      "Summary": "It is how messages are shared between people."
+    },
+    "Meaning and Definition of Communication": {
+      "Meaning": "Communication is the process of sharing information, ideas, or feelings between two or more people to create understanding.",
+      "Definition": "Communication is the exchange of facts, ideas, opinions or emotions by two or more persons.",
+      "Example": "A teacher explaining a topic to students"
+    },
+    "Types of Communication": {
+      "Based on Expression": {
+        "Verbal": "Using spoken or written words. Example: Phone call, Letter",
+        "Non-Verbal": "Using gestures, body language, tone. Example: Smile, Handshake",
+        "Visual": "Using signs, charts, symbols. Example: Traffic light, Graph"
+      },
+      "Based on Flow": {
+        "Formal": "Official communication through set rules. Example: Office memo, Report",
+        "Informal": "Casual, friendly talk. Example: Chat with friend"
+      },
+      "Summary": "Types show how and in what manner communication happens."
+    },
+    "Process of Communication": {
+      "Steps": [
+        "Sender – Person who wants to share an idea. Example: Teacher",
+        "Message – The information to be shared. Example: Lesson topic",
+        "Encoding – Converting idea into words, symbols, or actions",
+        "Channel/Medium – Way of sending. Example: Email, Phone, Face-to-face",
+        "Receiver – Person who gets the message. Example: Student",
+        "Decoding – Understanding the message",
+        "Feedback – Response of receiver. Example: Asking a question"
+      ],
+      "Summary": "Sender → Message → Encoding → Channel → Receiver → Decoding → Feedback"
+    },
+    "Functions of Communication": [
+      "Informing – To share facts and data. Example: Manager tells team about new project",
+      "Persuading – To convince or motivate others. Example: Salesperson convincing customer",
+      "Educating – To increase knowledge. Example: Teacher explaining a lesson",
+      "Motivating – To encourage people. Example: Coach cheering players",
+      "Controlling – To guide and regulate behavior. Example: Boss giving rules to employees",
+      "Socializing – To build relationships. Example: Talking with friends"
+    ],
+    "Objectives of Communication": [
+      "To Exchange Information – Share ideas, facts, or messages",
+      "To Create Understanding – Make sure receiver understands clearly",
+      "To Persuade or Influence – Change opinions or attitudes",
+      "To Build Relations – Develop trust and cooperation",
+      "To Achieve Goals – Support personal or organizational objectives"
+    ],
+    "Importance of Communication": [
+      "Clarity & Understanding – Removes confusion. Example: Teacher explains doubts",
+      "Decision Making – Helps managers take right decisions",
+      "Coordination – Connects different people/departments",
+      "Motivation – Encourages employees/students",
+      "Relationship Building – Creates trust and teamwork",
+      "Growth of Business – Smooth communication improves efficiency"
+    ],
+    "Essentials of Good Communication": [
+      "Clarity – Message should be clear and simple",
+      "Conciseness – Use short and direct words",
+      "Correctness – Free from errors (facts/grammar)",
+      "Completeness – Include all necessary details",
+      "Courtesy – Be polite and respectful",
+      "Feedback – Ensure receiver understood"
+    ],
+    "Communication Barriers": {
+      "Definition": "Barriers are obstacles that disturb the flow of communication.",
+      "Types": {
+        "Physical Barriers": "Noise, distance, poor network",
+        "Language Barriers": "Using difficult words or different languages",
+        "Psychological Barriers": "Stress, anger, low confidence",
+        "Cultural Barriers": "Different customs, traditions, or beliefs",
+        "Organizational Barriers": "Long hierarchy, unclear rules"
+      },
+      "Summary": "Barriers block understanding between sender and receiver."
+    },
+    "7 C’s of Communication": [
+      "Clarity – Message should be clear",
+      "Conciseness – Say more in fewer words",
+      "Correctness – Use accurate facts & grammar",
+      "Completeness – Give full information",
+      "Concreteness – Be specific, not vague",
+      "Courtesy – Be polite & respectful",
+      "Consideration – Keep receiver’s feelings in mind"
+    ]
+  }
+}

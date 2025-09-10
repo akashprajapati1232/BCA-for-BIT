@@ -1,0 +1,70 @@
+{
+  "Unit 2": {
+    "Written Communication": {
+      "Definition": "Communication done through written words like letters, emails, reports, notices, etc.",
+      "Benefits": [
+        "Provides a permanent record",
+        "Can be read anytime"
+      ],
+      "Examples": ["Writing an email to your teacher about assignment submission"]
+    },
+    "Purpose of Writing": {
+      "Definition": "Writing helps to share ideas, information, or messages clearly.",
+      "Uses": ["To inform", "To persuade", "To educate", "To record"],
+      "Example": "Writing a report to inform about monthly sales"
+    },
+    "Clarity in Writing": {
+      "Guidelines": [
+        "Writing should be simple, clear, and easy to understand",
+        "Avoid difficult words and confusing sentences"
+      ],
+      "Example": "Instead of 'Utilize', write 'Use'"
+    },
+    "Principles of Effective Writing": [
+      "Clarity – Use simple, easy words",
+      "Conciseness – Be brief, avoid extra words",
+      "Completeness – Cover all important details",
+      "Correctness – No grammar or spelling mistakes",
+      "Courtesy – Be polite and respectful",
+      "Consideration – Keep reader’s point of view in mind",
+      "Concreteness – Use specific facts, not vague words",
+      "Creativity – Write in an interesting way to engage reader"
+    ],
+    "Writing Techniques": [
+      "Planning – Think before you write, make outline",
+      "Clarity – Write in a simple and direct way",
+      "Conciseness – Use minimum words, avoid repetition",
+      "Consistency – Keep same tense, style, and tone",
+      "Paragraphing – Divide writing into short, clear paragraphs",
+      "Emphasis – Highlight important points (bold/underline in digital writing)",
+      "Proofreading – Check spelling, grammar, and facts",
+      "Visual Aids – Use charts, bullet points, or headings for clarity"
+    ],
+    "Electronic Writing Process": {
+      "Definition": "Writing done using electronic devices like computer, mobile, or tablet.",
+      "Steps": {
+        "Planning": {
+          "Description": "Decide the purpose, audience, and content before writing",
+          "Example": "Planning an email to your teacher about project deadline"
+        },
+        "Drafting": {
+          "Description": "Start writing your ideas in simple form without worrying about mistakes",
+          "Example": "Typing the first version of your project report"
+        },
+        "Editing & Revising": {
+          "Description": "Correct grammar, spelling, sentence structure, and improve clarity",
+          "Example": "Checking email for spelling mistakes before sending"
+        },
+        "Formatting": {
+          "Description": "Arrange text properly with headings, bullets, fonts, and alignment",
+          "Example": "Making a PowerPoint presentation with clear titles and points"
+        },
+        "Storing & Sending": {
+          "Description": "Save your document and share it through email, Google Drive, or any digital platform",
+          "Example": "Submitting assignment on college portal"
+        }
+      },
+      "Summary": "Plan → Draft → Edit → Format → Send"
+    }
+  }
+}

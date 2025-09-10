@@ -1,0 +1,104 @@
+{
+  "Unit 6": {
+    "Information Technology for Communication": {
+      "Definition": "Use of computers, internet, and digital tools to share information quickly and easily.",
+      "Benefits": ["Faster", "Cheaper", "Global"],
+      "Example": "Sending emails or using WhatsApp for official messages"
+    },
+    "Word Processor": {
+      "Definition": "A software used to create, edit, format, and print documents.",
+      "Features": ["Error correction", "Spell check", "Adding images/tables"],
+      "Examples": ["MS Word", "Google Docs"]
+    },
+    "Telex": {
+      "Definition": "A telecommunication service used earlier to send typed messages over long distances.",
+      "Function": "Works like text messaging but through teleprinters.",
+      "Example": "Companies used Telex before fax and email for business communication"
+    },
+    "Facsimile (Fax)": {
+      "Definition": "A system to send a copy of a document or image through telephone lines.",
+      "Function": "The receiver gets the same document printed on paper.",
+      "Example": "Sending a signed contract via fax machine"
+    },
+    "E-mail": {
+      "Definition": "An electronic method of sending messages, documents, or files through the internet.",
+      "Advantages": ["Fast", "Cost-effective", "Widely used for official communication"],
+      "Example": "Sending a job application via Gmail"
+    },
+    "Voice Mail": {
+      "Definition": "A system that records spoken messages when the receiver is unavailable.",
+      "Function": "The receiver can listen to the message later.",
+      "Example": "Leaving a voice mail for your manager when they don’t pick up the call"
+    },
+    "Internet": {
+      "Definition": "A global network that connects computers and allows sharing of information worldwide.",
+      "Uses": ["Communication", "Research", "Online services", "Social media"],
+      "Example": "Using Google to search information or Zoom for meetings"
+    },
+    "Multimedia": {
+      "Definition": "Use of different forms of content like text, audio, video, images, and animations together.",
+      "Function": "Makes communication more attractive and easy to understand.",
+      "Example": "A company presentation with slides, videos, and background music"
+    },
+    "Teleconferencing": {
+      "Definition": "A live meeting held between people at different locations using telephone or internet.",
+      "Benefits": ["Saves travel time", "Saves cost", "Useful for quick discussions"],
+      "Example": "Business teams discussing project updates via Zoom or Microsoft Teams"
+    },
+    "Mobile Phone Conversation": {
+      "Definition": "Communication done through mobile phones using voice calls.",
+      "Benefits": ["Quick", "Convenient", "Possible from anywhere"],
+      "Example": "Calling a client to confirm meeting details"
+    },
+    "Video Conferencing": {
+      "Definition": "A live meeting where participants can see and talk to each other through video and audio.",
+      "Uses": ["Remote work", "Interviews", "Online classes"],
+      "Example": "An HR manager interviewing a candidate via Google Meet"
+    },
+    "SMS (Short Message Service)": {
+      "Definition": "A service to send short text messages through mobile phones.",
+      "Features": ["Fast", "Simple", "Works without internet"],
+      "Example": "Receiving an OTP (One Time Password) from a bank"
+    },
+    "Telephone": {
+      "Definition": "A device used for real-time voice communication over long distances.",
+      "Function": "It makes instant personal and business conversations possible.",
+      "Example": "Calling a supplier to place an urgent order"
+    },
+    "Answering Machine": {
+      "Definition": "A device that records voice messages when the receiver is not available.",
+      "Function": "The user can listen to the recorded message later.",
+      "Example": "A shop owner listens to customer queries left on the answering machine"
+    },
+    "Advantages of IT Communication": [
+      "Fast & Easy: Messages reach instantly (Email, SMS, Calls)",
+      "Cost-Effective: Cheaper than letters or physical meetings (Email, Teleconferencing)",
+      "Global Reach: Connects people anywhere in the world (Internet, Video Conferencing)",
+      "Record Keeping: Messages can be stored for future use (Email, Fax, Voice Mail)",
+      "Convenience: Communication possible anytime, anywhere (Mobile, SMS)"
+    ],
+    "Limitations of IT Communication": [
+      "Technical Issues: Network problems or device failure can disturb communication",
+      "Security Risks: Data can be hacked or misused (Email, Internet)",
+      "Less Personal Touch: Lacks face-to-face emotional connection (Teleconferencing, SMS)",
+      "Cost of Setup: Some tools need expensive equipment/software (Video Conferencing, Fax)",
+      "Misunderstanding: Written or voice messages may be unclear without proper context"
+    ],
+    "Group Discussion": {
+      "Definition": "A conversation where a small group talks on a specific topic to share ideas and opinions.",
+      "Benefits": ["Helps in decision-making", "Helps in problem-solving", "Checks communication skills"],
+      "Example": "Students discussing 'Impact of Social Media' in class"
+    },
+    "Mock Interview": {
+      "Definition": "A practice interview held to prepare candidates for real job interviews.",
+      "Benefits": ["Improves confidence", "Improves body language", "Improves communication skills"],
+      "Example": "A teacher conducting a mock interview for students before campus placement"
+    },
+    "Decision Making in a Group": {
+      "Definition": "Process of solving problems or choosing actions by involving all group members.",
+      "Advantages": ["Leads to better ideas through collective thinking"],
+      "Disadvantages": ["Sometimes conflicts may arise"],
+      "Example": "A company board deciding new marketing strategies together"
+    }
+  }
+}

@@ -1,54 +1,75 @@
 {
-  "UNIT-II": "Algorithm and Flowcharts",
-  "topics": [
-    {
-      "title": "Algorithm",
-      "content": [
-        "Step-by-step procedure to solve a problem.",
-        "Characteristics: Finite, Definite, Input, Output, Effective."
-      ]
+  "Unit 2": {
+    "Algorithm": {
+      "Definition": "A step-by-step procedure to solve a problem. It has a beginning, a sequence of instructions, and an end.",
+      "Example": "To add two numbers → Step 1: Input A, B → Step 2: Add A+B → Step 3: Show result",
+      "Characteristics": [
+        "Finite: Must complete after limited steps",
+        "Definite: Each step should be clear (no confusion)",
+        "Input: Takes zero or more inputs",
+        "Output: Produces at least one result",
+        "Effective: Every step must be simple and doable"
+      ],
+      "Advantages": [
+        "Easy to understand and stepwise representation of problem",
+        "Helps in finding errors easily",
+        "Works as a blueprint before making program"
+      ],
+      "Disadvantages": [
+        "Writing takes more time and effort",
+        "Complex problems make algorithms very long",
+        "No standard way of representation"
+      ],
+      "Examples": {
+        "Find Largest of Two Numbers": [
+          "Step 1: Input A, B",
+          "Step 2: If A > B → Print A else Print B",
+          "Step 3: Stop"
+        ],
+        "Find Sum of First 3 Numbers": [
+          "Step 1: Input A, B, C",
+          "Step 2: SUM = A + B + C",
+          "Step 3: Print SUM",
+          "Step 4: Stop"
+        ]
+      }
     },
-    {
-      "title": "Advantages of Algorithm",
-      "content": [
-        "Easy to understand, helps debugging, blueprint for programs."
-      ]
-    },
-    {
-      "title": "Disadvantages of Algorithm",
-      "content": [
-        "Time consuming, complex for big problems."
-      ]
-    },
-    {
-      "title": "Examples",
-      "content": [
-        "Find largest of two numbers, Find sum of numbers."
-      ]
-    },
-    {
-      "title": "Flowchart",
-      "content": [
-        "Diagram showing process steps with symbols & arrows."
-      ]
-    },
-    {
-      "title": "Flowchart Symbols",
-      "content": [
-        "Oval (Start/End), Rectangle (Process), Diamond (Decision), Parallelogram (I/O), Arrow (Flow)."
-      ]
-    },
-    {
-      "title": "Advantages of Flowcharts",
-      "content": [
-        "Visual, easy to debug, good for documentation."
-      ]
-    },
-    {
-      "title": "Disadvantages of Flowcharts",
-      "content": [
-        "Large for complex programs, hard to modify."
-      ]
+    "Flowchart": {
+      "Definition": "A flowchart is a diagram that shows steps of a process using symbols and arrows. It helps to understand the flow of logic in solving a problem.",
+      "Common Symbols": {
+        "Oval": "Start / End of process",
+        "Rectangle": "Process or instruction (e.g., calculation)",
+        "Diamond": "Decision / condition (Yes-No, True-False)",
+        "Parallelogram": "Input / Output (read, print)",
+        "Arrow": "Shows direction of flow"
+      },
+      "Advantages": [
+        "Easy to understand logic through visual diagrams",
+        "Helps in debugging and analyzing processes",
+        "Useful for documentation and communication between programmers"
+      ],
+      "Disadvantages": [
+        "Complex programs make very large flowcharts",
+        "Difficult to modify once drawn",
+        "Time-consuming to design in detail"
+      ],
+      "Examples": {
+        "Flowchart to Add Two Numbers": [
+          "Start",
+          "Input A, B",
+          "SUM = A + B",
+          "Print SUM",
+          "End"
+        ],
+        "Flowchart to Find Largest of Two Numbers": [
+          "Start",
+          "Input A, B",
+          "Decision (A > B?)",
+          "Yes → Print A",
+          "No → Print B",
+          "End"
+        ]
+      }
     }
-  ]
+  }
 }

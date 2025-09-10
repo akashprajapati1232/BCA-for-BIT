@@ -1,37 +1,44 @@
 {
-  "UNIT-IV": "Windows Environment",
-  "topics": [
-    {
-      "title": "Windows OS",
-      "content": ["GUI based OS with icons, menus, mouse."]
+  "Unit 4": {
+    "Windows Operating Environment": {
+      "Definition": "Windows is a Graphical User Interface (GUI) based OS.",
+      "Function": "It allows users to interact using icons, menus, and mouse instead of only commands."
     },
-    {
-      "title": "Features of Windows",
-      "content": ["GUI, Multitasking, Plug & Play, Networking, Security."]
+    "Features of MS-Windows": [
+      "GUI interface (easy to use)",
+      "Multitasking (run multiple apps)",
+      "Plug and Play (auto device detection)",
+      "Networking support and security features"
+    ],
+    "Control Panel": {
+      "Definition": "A system tool to manage computer settings.",
+      "Examples": ["Add/Remove Programs", "Display Settings", "User Accounts"]
     },
-    {
-      "title": "Control Panel",
-      "content": ["Manage system settings."]
+    "Taskbar": {
+      "Definition": "A horizontal bar (usually at the bottom).",
+      "Components": ["Start menu", "Running apps", "System tray", "Clock"]
     },
-    {
-      "title": "Taskbar",
-      "content": ["Shows Start menu, apps, tray, clock."]
+    "Desktop": {
+      "Definition": "Main working area of Windows screen.",
+      "Contents": ["Icons", "Shortcuts", "Taskbar", "Wallpaper"]
     },
-    {
-      "title": "Desktop",
-      "content": ["Main working area with icons, wallpaper."]
+    "Windows Application": {
+      "Definition": "Software designed to run in Windows.",
+      "Examples": ["MS Word", "MS Excel", "MS PowerPoint"]
     },
-    {
-      "title": "Applications",
-      "content": ["MS Word, Excel, PowerPoint."]
+    "Icons": {
+      "Definition": "Small graphical symbols representing programs, files, or folders.",
+      "Examples": ["Recycle Bin", "My Computer"]
     },
-    {
-      "title": "Icons",
-      "content": ["Graphical symbols for programs/files."]
+    "Windows Accessories": {
+      "Definition": "Small built-in programs in Windows.",
+      "Examples": ["Notepad", "Paint", "Calculator", "WordPad"]
     },
-    {
-      "title": "Accessories",
-      "content": ["Notepad, Paint, Calculator, WordPad."]
+    "Notepad": {
+      "Definition": "A simple text editor used for writing and editing text files (.txt)."
+    },
+    "Paintbrush (MS Paint)": {
+      "Definition": "A basic graphics program used for drawing, coloring, and editing images."
     }
-  ]
+  }
 }

@@ -1,90 +1,137 @@
 {
-  "UNIT-I": "Introduction to Computers",
-  "topics": [
-    {
-      "title": "Computer",
-      "content": [
-        "Electronic machine that takes input, processes it, and gives output.",
-        "Basic functions: Input → Process → Output → Storage."
-      ]
-    },
-    {
-      "title": "Characteristics of Computers",
-      "content": [
-        "Speed, Accuracy, Automation, Storage, Versatility, Connectivity."
-      ]
-    },
-    {
-      "title": "Block Diagram of Computer",
-      "content": [
-        "Input Unit, CPU (ALU, CU, Registers), Memory, Output Unit."
-      ]
-    },
-    {
-      "title": "Types of Computers",
-      "content": [
-        "Supercomputer, Mainframe, Mini, Micro, Laptop."
-      ]
-    },
-    {
-      "title": "Types of Programming Languages",
-      "content": [
-        "Machine, Assembly, High-level languages."
-      ]
-    },
-    {
-      "title": "Data Organization",
-      "content": [
-        "Bit → Byte → Field → Record → File → Database."
-      ]
-    },
-    {
-      "title": "Drives",
-      "content": [
-        "HDD/SSD, Optical drives, Flash drives, Cloud drives."
-      ]
-    },
-    {
-      "title": "Files",
-      "content": [
-        "Collection of data with name & extension."
-      ]
-    },
-    {
-      "title": "Directories",
-      "content": [
-        "Folders containing files & sub-folders."
-      ]
-    },
-    {
-      "title": "Types of Memory",
-      "content": [
-        "Primary (RAM, ROM), Secondary (HDD, SSD, CD, USB)."
-      ]
-    },
-    {
-      "title": "Secondary Storage Devices",
-      "content": [
-        "Floppy, CD, Hard Disk, Pen Drive."
-      ]
-    },
-    {
-      "title": "I/O Devices",
-      "content": [
-        "Scanners, Plotters, LCD, Plasma."
-      ]
-    },
-    {
-      "title": "Number Systems",
-      "content": [
-        "Decimal, Binary, Octal, Hexadecimal."
-      ]
-    },
-    {
-      "title": "Binary Operations",
-      "content": [
-        "Addition, Subtraction, Multiplication."
-      ]
+    "Unit 1": {
+        "Introduction to Computers": {
+            "Definition": "An electronic machine that takes input (data), processes it, and gives output (information).",
+            "Basic Functions": [
+                "Input → Process → Output → Storage"
+            ],
+            "Example": "Calculator (2+3 = 5)",
+            "Summary": "A computer is a fast, automatic, and reliable machine to solve problems."
+        },
+        "Characteristics of Computers": {
+            "Points": [
+                {
+                    "Speed": "Millions of calculations in a second"
+                },
+                {
+                    "Accuracy": "Errors only happen if input is wrong"
+                },
+                {
+                    "Automation": "Works automatically once program is given"
+                },
+                {
+                    "Storage": "Stores huge amounts of data permanently"
+                },
+                {
+                    "Versatility": "Used for gaming, study, business"
+                },
+                {
+                    "Connectivity": "Can connect with other devices"
+                }
+            ],
+            "Summary": "Computers are fast, accurate, reliable, and multi-purpose machines."
+        },
+        "Block Diagram of Computer": {
+            "Input Unit": [
+                "Keyboard",
+                "Mouse"
+            ],
+            "CPU": {
+                "ALU": "Performs calculations & logic",
+                "CU": "Controls flow of data & instructions",
+                "Registers": "Small fast memory inside CPU"
+            },
+            "Memory": {
+                "Primary": [
+                    "RAM",
+                    "ROM"
+                ],
+                "Secondary": [
+                    "Hard Disk",
+                    "SSD"
+                ]
+            },
+            "Output Unit": [
+                "Monitor",
+                "Printer"
+            ],
+            "Flow": "Input → CPU (ALU + CU + Memory) → Output"
+        },
+        "Types of Computers & Features": {
+            "Supercomputer": "Very powerful, research, weather forecasting",
+            "Mainframe": "Used by big organizations, supports thousands of users",
+            "Mini": "Smaller, used in companies, multi-user",
+            "Micro": "Personal computers, homes, schools, offices",
+            "Laptop": "Portable microcomputer"
+        },
+        "Types of Programming Languages": {
+            "Machine Language": "Binary (0s & 1s), fast but hard to understand",
+            "Assembly Language": "Mnemonics, hardware dependent, needs assembler",
+            "High-Level Language": "English-like, portable, needs compiler/interpreter"
+        },
+        "Data Organization": {
+            "Levels": [
+                "Bit",
+                "Byte",
+                "Field",
+                "Record",
+                "File",
+                "Database"
+            ]
+        },
+        "Storage & Files": {
+            "Drives": [
+                "Hard Disk",
+                "Optical Drive",
+                "USB",
+                "Network Drive"
+            ],
+            "Files": [
+                "Data Files",
+                "Program Files"
+            ],
+            "Directories": "Folders organizing files & sub-folders"
+        },
+        "Memory Types": {
+            "Primary": [
+                "RAM",
+                "ROM"
+            ],
+            "Secondary": [
+                "Hard Disk",
+                "SSD",
+                "CD/DVD",
+                "USB"
+            ]
+        },
+        "RAM, ROM, PROM, EPROM": {
+            "RAM": "Temporary, read/write",
+            "ROM": "Permanent, read-only",
+            "PROM": "Programmable once",
+            "EPROM": "Erasable & reusable"
+        },
+        "Secondary Storage Devices": [
+            "Floppy Disk",
+            "Compact Disc",
+            "Hard Disk",
+            "Pen Drive"
+        ],
+        "I/O Devices": [
+            "Scanners",
+            "Plotters",
+            "LCD",
+            "Plasma Display"
+        ],
+        "Number Systems": [
+            "Decimal",
+            "Binary",
+            "Octal",
+            "Hexadecimal"
+        ],
+        "Binary Operations": {
+            "Addition": "Rules & examples provided",
+            "Subtraction": "Rules & examples provided",
+            "Multiplication": "Rules & examples provided"
+        }
     }
-  ]
 }
